@@ -1,0 +1,8 @@
+main {
+    width: 80%;
+    max-width: 300px;
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px -4px var(--main_shadow);
+    background-color: var(--main_bg-color);
+}

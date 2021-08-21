@@ -1,0 +1,11 @@
+body , html {height: 100%;}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    background-color:  var(--body_bg-color);
+    overflow: hidden;
+}

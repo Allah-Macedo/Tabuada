@@ -1,0 +1,12 @@
+.calcular {
+    font-weight: bold;
+    margin: 1rem 0;
+    padding: 4px 6px;
+    color: var(--calcular_color); 
+    background-color: var(--calcular_bg-color);
+    border:1px solid var(--calcular_border-color);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px var(--calcular_shadow); 
+    cursor: pointer;
+}
+.calcular:hover {box-shadow: none;}

@@ -1,0 +1,23 @@
+/* 
+  [box] de components 
+*/
+
+
+/* 
+  Components list 
+*/
+.label {
+  display: block;
+  font-size: 12pt;
+  color: var(--label_color);
+}
+.numero {
+  padding: .2rem .2rem .2rem .5rem;
+  color: var(--numero_color);
+}
+.numero:focus {
+  color: var(--numero_focus-color);
+  background-color: var(--numero_focus-bg-color);
+  border: none;
+  outline-style: dashed;
+}
